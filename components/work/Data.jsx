@@ -16,8 +16,8 @@ export const projectsData = [
 		image: Work4,
 		title: 'Portfolio Website',
 		category: 'web',
-		demoUrl: 'https://soumyajitbasak.netlify.app/',
-		sourceUrl: 'https://github.com/soumyajiitt/Portfolio',
+		demoUrl: 'https://portfolio-cyan-six-87.vercel.app/',
+		sourceUrl: 'https://github.com/molly1022/portfolio',
 		status: 'completed',
 	},
 
