@@ -313,7 +313,7 @@ body {
   font-family: "Artifakt_Element_Heavy_Italic";
   font-style: italic;
   font-weight: 900; /* Heavy = 900 (boldest) */
-  src: url("fonts/Artifakt\ Element\ Heavy\ Italic.ttf") format("truetype");
+  src: url("/fonts/Artifakt\ Element\ Heavy\ Italic.ttf") format("truetype");
   font-display: swap; /* Prevents FOIT (Flash of Invisible Text) */
 }
 
@@ -321,13 +321,13 @@ body {
   font-family: "Artifakt_Element_Black_Italic";
   font-style: italic;
   font-weight: 700; /* Heavy = 900 (boldest) */
-  src: url("fonts/Artifakt\ Element\ Black\ Italic.ttf") format("truetype");
+  src: url("/fonts/Artifakt\ Element\ Black\ Italic.ttf") format("truetype");
   font-display: swap; /* Prevents FOIT (Flash of Invisible Text) */
 }
 
 @font-face {
   font-family: "Artifakt_Element_Regular";
   font-weight: 900; 
-  src: url("fonts/Artifakt\ Element\ Medium\ Italic.ttf") format("truetype");
+  src: url("/fonts/Artifakt\ Element\ Medium\ Italic.ttf") format("truetype");
   font-display: swap; /* Prevents FOIT (Flash of Invisible Text) */
 }
