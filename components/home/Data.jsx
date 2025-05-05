@@ -130,7 +130,7 @@ const Data = () => {
       >
         Full-Stack Developer
       </h3>
-      <p className="home__description">I'm a creative developer based in Bengaluru, and I'm very passionate and dedicated to my work.</p>
+      <p className="home__description">I'm a Senior Python Developer with full-stack expertise. I build high performance backend-systems, APIs, data pipelines using Python(Flask/Django), paired with modern front-ends(Svelte, React) when needed</p>
 
       <a href="" className="button button--flex">
         Resume
