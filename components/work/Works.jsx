@@ -3,12 +3,11 @@ import React, { useEffect, useState } from 'react';
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 
-import { projectsData } from './Data';
+import { projectsData, projectsNav } from './Data';
 import WorksItems from './WorksItems';
-import { projectsNav } from './Data';
 
 const Works = () => {
-    const [item, setItem] = useState({ name: 'all' });
+    const [item, setItem] = useState({ name: "all" });
     const [projects, setProjects] = useState([]);
     const [active, setActive] = useState(false);
     const [pagiNum, setPagiNum] = useState(1);
