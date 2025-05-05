@@ -84,6 +84,13 @@
 	transform: translateX(0.25rem);
 }
 
+.work__pagi {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 0;
+	transform: scale(130%);
+}
+
 .active-work {
 	background-color: var(--title-color);
 	color: var(--container-color);

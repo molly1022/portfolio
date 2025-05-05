@@ -1,5 +1,14 @@
 import Work1 from '../../src/assets/Work1.png';
 import Work4 from '../../src/assets/Work4.png';
+import Work2 from '../../src/assets/Work2.jpg';
+import Work3 from '../../src/assets/Work3.jpg';
+import Work5 from '../../src/assets/Work5.jpg';
+import Work6 from '../../src/assets/Work6.jpg';
+import Work7 from '../../src/assets/Work7.png';
+import Work8 from '../../src/assets/Work8.png';
+import Work9 from '../../src/assets/Work9.png';
+import Work10 from '../../src/assets/Work10.png';
+
 
 export const projectsData = [
 	{
@@ -15,10 +24,102 @@ export const projectsData = [
 		id: 2,
 		image: Work4,
 		title: 'Portfolio Website',
-		category: 'web',
+		category: 'portfolio',
 		demoUrl: 'https://portfolio-cyan-six-87.vercel.app/',
 		sourceUrl: 'https://github.com/molly1022/portfolio',
 		status: 'completed',
 	},
+	{
+		id: 3,
+		image: Work2,
+		title: 'ECommerce Website',
+		category: 'ecommerce',
+		demoUrl: '',
+		sourceUrl: 'https://github.com/molly1022/MERN_ecommerce',
+		status: 'completed',
+	},
+	{
+		id: 4,
+		image: Work3,
+		title: 'ECommerce Website',
+		category: 'ecommerce',
+		demoUrl: '',
+		sourceUrl: 'https://github.com/molly1022/Ecommerce_MERN',
+		status: 'completed',
+	},
+	{
+		id: 5,
+		image: Work5,
+		title: 'Criket Weapon ECommerce',
+		category: 'ecommerce',
+		demoUrl: '',
+		sourceUrl: 'https://github.com/molly1022/CriketWeapon_Ecommerce',
+		status: 'completed',
+	},
+	{
+		id: 6,
+		image: Work6,
+		title: 'Task Management App',
+		category: 'TMS',
+		demoUrl: 'https://todo-kohl-pi-23.vercel.app/landing',
+		sourceUrl: 'https://github.com/molly1022/TMS_Next_Firebase',
+		status: 'completed',
+	},
+	{
+		id: 7,
+		image: Work7,
+		title: 'TMS Dashboard',
+		category: 'TMS',
+		demoUrl: '',
+		sourceUrl: 'https://github.com/molly1022/TMS_Dashboard',
+		status: 'completed',
+	},
+	{
+		id: 8,
+		image: Work8,
+		title: 'AI Resume Builder',
+		category: 'Builder',
+		demoUrl: '',
+		sourceUrl: 'https://github.com/molly1022/AI-Resume-Builder',
+		status: 'completed',
+	},
+	{
+		id: 9,
+		image: Work9,
+		title: 'Web Scrapping',
+		category: 'Scrapping',
+		demoUrl: '',
+		sourceUrl: 'https://github.com/molly1022/Web-Scraping',
+		status: 'completed',
+	},
+	{
+		id: 10,
+		image: Work10,
+		title: 'Web Scrapping',
+		category: 'Scrapping',
+		demoUrl: '',
+		sourceUrl: 'https://github.com/molly1022/AI-Resume-Builder',
+		status: 'completed',
+	},
+];
 
+export const projectsNav = [
+	{
+		name: 'all',
+	},
+	{
+		name: 'portfolio',
+	},
+	{
+		name: 'ecommerce',
+	},
+	{
+		name: 'TMS',
+	},
+	{
+		name: 'Builder',
+	},
+	{
+		name: 'Scrapping',
+	},
 ];
