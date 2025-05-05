@@ -8,6 +8,7 @@ import Work7 from '../../src/assets/Work7.png';
 import Work8 from '../../src/assets/Work8.png';
 import Work9 from '../../src/assets/Work9.png';
 import Work10 from '../../src/assets/Work10.png';
+import Work11 from '../../src/assets/Work11.jpg';
 
 
 export const projectsData = [
@@ -101,6 +102,15 @@ export const projectsData = [
 		sourceUrl: 'https://github.com/molly1022/AI-Resume-Builder',
 		status: 'completed',
 	},
+	{
+		id: 11,
+		image: Work11,
+		title: 'MVP_Full-Stack',
+		category: 'MVP',
+		demoUrl: '',
+		sourceUrl: 'https://github.com/molly1022/MVP_Backend',
+		status: 'completed',
+	},
 ];
 
 export const projectsNav = [
@@ -122,4 +132,7 @@ export const projectsNav = [
 	{
 		name: 'Scrapping',
 	},
+	{
+		name: 'MVP'
+	}
 ];
