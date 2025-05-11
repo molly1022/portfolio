@@ -9,6 +9,9 @@ import Work8 from '../../src/assets/Work8.png';
 import Work9 from '../../src/assets/Work9.png';
 import Work10 from '../../src/assets/Work10.png';
 import Work11 from '../../src/assets/Work11.jpg';
+import Work12 from '../../src/assets/Work12.jpg';
+import Work13 from '../../src/assets/Work13.jpg';
+import Work14 from '../../src/assets/Work14.jpg';
 
 
 export const projectsData = [
@@ -32,6 +35,24 @@ export const projectsData = [
 	},
 	{
 		id: 3,
+		image: Work13,
+		title: 'Real Estate Website (Map)',
+		category: 'real-estate',
+		demoUrl: 'https://real-estate-management.netlify.app/map',
+		sourceUrl: 'https://github.com/molly1022/real-estate',
+		status: 'completed',
+	},
+	{
+		id: 4,
+		image: Work14,
+		title: 'Real Estate Website',
+		category: 'real-estate',
+		demoUrl: '',
+		sourceUrl: 'https://github.com/molly1022/real_estate_JS',
+		status: 'completed',
+	},
+	{
+		id: 5,
 		image: Work2,
 		title: 'ECommerce Website',
 		category: 'ecommerce',
@@ -40,7 +61,7 @@ export const projectsData = [
 		status: 'completed',
 	},
 	{
-		id: 4,
+		id: 6,
 		image: Work3,
 		title: 'ECommerce Website',
 		category: 'ecommerce',
@@ -49,7 +70,7 @@ export const projectsData = [
 		status: 'completed',
 	},
 	{
-		id: 5,
+		id: 7,
 		image: Work5,
 		title: 'Criket Weapon ECommerce',
 		category: 'ecommerce',
@@ -58,7 +79,7 @@ export const projectsData = [
 		status: 'completed',
 	},
 	{
-		id: 6,
+		id: 8,
 		image: Work6,
 		title: 'Task Management App',
 		category: 'TMS',
@@ -67,7 +88,7 @@ export const projectsData = [
 		status: 'completed',
 	},
 	{
-		id: 7,
+		id: 9,
 		image: Work7,
 		title: 'TMS Dashboard',
 		category: 'TMS',
@@ -76,7 +97,7 @@ export const projectsData = [
 		status: 'completed',
 	},
 	{
-		id: 8,
+		id: 10,
 		image: Work8,
 		title: 'AI Resume Builder',
 		category: 'Builder',
@@ -85,7 +106,7 @@ export const projectsData = [
 		status: 'completed',
 	},
 	{
-		id: 9,
+		id: 11,
 		image: Work9,
 		title: 'Web Scrapping',
 		category: 'Scrapping',
@@ -94,7 +115,7 @@ export const projectsData = [
 		status: 'completed',
 	},
 	{
-		id: 10,
+		id: 12,
 		image: Work10,
 		title: 'Web Scrapping',
 		category: 'Scrapping',
@@ -103,12 +124,21 @@ export const projectsData = [
 		status: 'completed',
 	},
 	{
-		id: 11,
+		id: 13,
 		image: Work11,
 		title: 'MVP_Full-Stack',
 		category: 'MVP',
 		demoUrl: '',
 		sourceUrl: 'https://github.com/molly1022/MVP_Backend',
+		status: 'completed',
+	},
+	{
+		id: 14,
+		image: Work12,
+		title: 'Flamingo Bus Miami',
+		category: 'Wordpress',
+		demoUrl: 'https://flamingobusmiami.com/',
+		sourceUrl: '',
 		status: 'completed',
 	},
 ];
@@ -124,6 +154,9 @@ export const projectsNav = [
 		name: 'ecommerce',
 	},
 	{
+		name: 'real-estate',
+	},
+	{
 		name: 'TMS',
 	},
 	{
@@ -134,5 +167,8 @@ export const projectsNav = [
 	},
 	{
 		name: 'MVP'
+	},
+	{
+		name: 'Wordpress'
 	}
 ];
